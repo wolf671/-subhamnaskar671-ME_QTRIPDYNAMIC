@@ -62,11 +62,13 @@ footer {
   height: 100%;
   border-radius: 8px;
   -webkit-transition: 0.2s all;
-  /* -webkit-filter: brightness(70%); */
+  -webkit-filter: grayscale(100%);
+ 
 }
 .tile img:hover {
-  -webkit-filter: brightness(50%);
+  -webkit-filter: brightness(100%);
   transform: scale(1.1);
+  transition: 1s ease;
 }
 
 .tile-text {

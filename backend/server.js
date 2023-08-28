@@ -49,6 +49,7 @@ The response is an [array] of adventures with each having the following structur
     "duration": 6,
     "category": "Party"
  }
+ 
 Data is sourced from "adventures" array in db.json file
 */
 app.get("/adventures", (req, res) => {
