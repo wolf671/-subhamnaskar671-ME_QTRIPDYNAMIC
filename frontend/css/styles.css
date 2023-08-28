@@ -249,7 +249,7 @@ input[type="number"] {
   display: none;
 }
 .reservation-visit-button {
-  background-color: rgb(255, 145, 0);
+  background-color: rgb(46, 90, 235);
   color: #fff;
   display: flex;
   justify-content: center;
@@ -259,10 +259,15 @@ input[type="number"] {
   white-space: nowrap;
   border-radius: 20px;
   cursor: pointer;
+  border:none
 }
 .reservation-visit-button:hover {
-  background-color: rgb(226, 129, 1);
+  background-color: rgb(31, 149, 238);
 }
+
+
+
+
 
 #carouselExampleIndicators {
   width: 100%;

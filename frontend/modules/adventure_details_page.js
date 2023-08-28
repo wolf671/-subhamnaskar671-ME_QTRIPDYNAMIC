@@ -112,7 +112,7 @@ function conditionalRenderingOfReservationPanel(adventure) {
 function calculateReservationCostAndUpdateDOM(adventure, persons) {
   // TODO: MODULE_RESERVATIONS
   // 1. Calculate the cost based on number of persons and update the reservation-cost field
-  const totalSum  = adventure.costPerHead*person;
+  const totalSum  = adventure.costPerHead*persons;
   document.getElementById("reservation-cost").innerHTML =totalSum;
 
 }
